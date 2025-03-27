@@ -1,0 +1,60 @@
+body{
+    background-color: lightblue;
+    font-size: 17px;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Limelight", sans-serif;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+.contenedor{
+    background-color: blueviolet;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  nav a
+  {
+    text-decoration: none;
+
+
+  }
+
+  .targetas{
+   display: flex;
+   justify-content: center;
+  }
+
+.card
+{
+margin: 20px;
+width: 300px;
+border-radius: 20px;
+border-radius: hidden;
+box-shadow: 0px 5px 10px #336eff;
+}
+
+.card-content
+{
+  padding: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+  
+  
