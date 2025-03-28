@@ -9,28 +9,45 @@ h1{
     font-family: "Limelight", sans-serif;
 }
 
+header{
+  background-color: white;
+ 
+}
+
 img{
     height: 150px;
     width: 150px;
+    
 }
 
 .contenedor{
     background-color: blueviolet;
     text-decoration: underline;
     font-size: 30px;
+    
 }
 
 .limelight-regular {
     font-family: "Limelight", sans-serif;
-    font-weight: 400;
+    font-weight: 900;
     font-style: normal;
   }
 
-  nav a
+  nav
   {
+    
+
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        padding: 0 20px;
+    
 
+  }
 
+  nav a{
+    text-decoration: none;
   }
 
   .targetas{
@@ -56,5 +73,46 @@ box-shadow: 0px 5px 10px #336eff;
     width: 100%;
 }
 
+.centrado{
+
+text-align: center;
+justify-content: center;
+height: 200%;
+width: 100%;
+border-radius: 200px;
+}
+
+.alineado{
+ display: inline-block;
+ padding: 0 20px;
+ justify-content: space-evenly;
+ 
+
+}
+
+.nevegacion{
+  justify-content: space-around;
+  display: inline-flex;
+}
+
+button{
+  background-color: deeppink;
+  border-radius: 25%;
+  width: 150px;
+  height: 45px;
+  
+}
+
+.header .nav-links .card:hover{
+  transform: scale(1.1);
+}
+
+.header .nav-links a{
+  font-size: 700;
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+  transition: scale(1.1);
+}
   
   
